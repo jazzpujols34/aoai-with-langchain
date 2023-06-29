@@ -7,10 +7,9 @@ This project demonstrates how to use Azure OpenAI's language model for various t
 Clone the repository and install the necessary packages:
 
 ```
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-pip install -r requirements.txt
+git clone https://github.com/jazzpujols34/aoai-with-langchain.git
 ```
+
 
 ## Usage
 
@@ -39,15 +38,18 @@ The main script demonstrates various tasks:
 To run this project, you will need to add the following environment variables to your .env file:
 
 `OPENAI_API_TYPE`
+
 `OPENAI_API_KEY`
+
 `OPENAI_API_BASE`
+
 `OPENAI_API_VERSION`
 
 ## Examples
 
 ```
 # Initialize AzureOpenAI with deployment and model names
-llm = AzureOpenAI(deployment_name="davinci", model_name="text-davinci-003")
+llm = AzureOpenAI(deployment_name="YOUR_MODEL_DEPLOYMENT_NAME", model_name="text-davinci-003")
 
 # Example: Run the LLM to get the capital of Italy
 print(llm("What is the capital of Italy?"))
