@@ -35,7 +35,7 @@ The main script demonstrates various tasks:
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file:
+To run this project, you will need to add the following environment variables:
 
 `OPENAI_API_TYPE`
 
