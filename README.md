@@ -10,8 +10,8 @@ Clone the repository and install the necessary packages:
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
+```
 
----
 ## Usage
 
 The main script demonstrates various tasks:
